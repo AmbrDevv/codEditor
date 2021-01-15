@@ -13,18 +13,17 @@
   <div id="header">
     <!--logo on the header-->
     <div id="logo">
-      codEditor
+      Thengine
     </div>
 
     <div id="madeBy">
       Made-By:
-      Abdur Rahman Robin
+      Rodney!
     </div>
 
     <!--button container, html-css-javascript-output-->
     <!--initially html and output will be selected-->
     <div id="buttonContainer">
-      <div class="toggleButton active" id="html">HTML</div>
       <div class="toggleButton" id="css">CSS</div>
       <div class="toggleButton" id="javascript">JavaScript</div>
       <div class="toggleButton active" id="output">Output</div>
@@ -33,7 +32,19 @@
   </div>
 
   <div id="container">
-    <textarea id="htmlPanel" class="panel">html</textarea>
+    <textarea id="htmlPanel" class="panel"><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+<body>
+    <div id="canvas"></div>
+    <script type="text/javascript" src="https://rawgithub.com/craftyjs/Crafty/release/dist/crafty-min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html></textarea>
     <textarea id="cssPanel" class="panel hidden">css</textarea>
     <textarea id="javascriptPanel" class="panel hidden"></textarea>
     <iframe id="outputPanel" class="panel"></iframe>
